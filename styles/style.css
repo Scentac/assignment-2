@@ -369,18 +369,17 @@ body {
 
 /* overlay images ended */
 
-.kids-img img{
+.kids-img img {
     margin-top: 0;
 }
-.career-header button{
-    
-}
+
+.career-header button {}
 
 .careers-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between; 
-    align-items: flex-start; 
+    justify-content: space-between;
+    align-items: flex-start;
     height: 821px;
     flex-shrink: 0;
     background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
@@ -391,53 +390,145 @@ body {
     flex: 1;
     margin-top: 120px;
 }
-.career-header h2{
+
+.career-header h2 {
     color: #FFF;
-font-size: 48px;
-font-weight: 700;
+    font-size: 48px;
+    font-weight: 700;
 }
-.career-header p{
+
+.career-header p {
     color: #FFF;
-font-size: 18px;
-font-weight: 400;
+    font-size: 18px;
+    font-weight: 400;
 }
 
 .positions-and-locations {
-    display: flex; 
-    flex-direction: row; 
+    display: flex;
+    flex-direction: row;
     margin-top: 10px;
 }
 
 .artist-positions {
-    margin-right: 47px; 
-}
-.artist{
-    color: #FFF;
-font-size: 20px;
-font-weight: 600;
-}
-.location{
-    color: #FFF;
-font-size: 20px;
-font-weight: 600;
-text-align: right;
-height: 400px;
-}
-.artist-positions button{
-    border-radius: 48px;
-background: #FFF;
-display: inline-flex;
-padding: 21px 40px;
-align-items: flex-start;
-border: none;
-color: #FF42A5;
-font-size: 15px;
-font-weight: 600;
-text-transform: uppercase;
+    margin-right: 47px;
 }
 
-.artist-positions h5, .locations h5 {
+.artist {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.location {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: right;
+    height: 400px;
+}
+
+.artist-positions button {
+    border-radius: 48px;
+    background: #FFF;
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    border: none;
+    color: #FF42A5;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.artist-positions h5,
+.locations h5 {
     line-height: 1.7;
 }
 
 /* career section ended */
+
+
+.games-container {
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    height: 427px;
+}
+
+.games-img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 135px;
+    text-align: right;
+}
+
+.game-item {
+   display: flex;
+    align-items: center;
+    margin-right: 20px;
+    border-radius: 50px;
+    background: #FFF;
+    width: 210px;
+    height: 60px;
+    flex-shrink: 0;
+    color: #0B0223;
+font-size: 20px;
+font-weight: 600;
+}
+
+.game-item img {
+    width: 40px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+
+
+.game-item h5 {
+    margin: 0;
+}
+
+.span-arcade{
+    color: #FF42A5;
+}
+.games-img .game-item:nth-child(3) {
+    border: 2px solid #FF42A5;
+}
+
+
+.games-img-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 120px;
+    text-align: right;
+    margin-top: -60px;
+}
+
+.game-item-2 {
+   display: flex;
+    align-items: center;
+    margin-right: 20px;
+    border-radius: 50px;
+    background: #FFF;
+    width: 210px;
+    height: 60px;
+    flex-shrink: 0;
+    color: #0B0223;
+font-size: 20px;
+font-weight: 600;
+}
+
+.game-item-2 img {
+    width: 40px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+
+
+.game-item-2 h5 {
+    margin: 0;
+}
+
+/* games section ended */
+
