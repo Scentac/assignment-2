@@ -268,3 +268,93 @@ body {
     font-size: 20px;
     font-weight: 500;
 }
+
+/* vid section ended */
+
+.instant-container{
+    display: flex;
+}
+
+.instant-text{
+    text-align: right;
+    margin-left: 435px;
+    margin-top: 290px;
+    margin-bottom: 335px;
+}
+
+.instant-text h2{
+    color: #0B0223;
+font-size: 45px;
+font-weight: 700;
+}
+.instant-text span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.instant-text p{
+    color: #534C64;
+font-size: 18px;
+font-weight: 400;
+max-width: 353px;
+}
+#instant-img{
+    margin-left: 265px;
+    margin-right: 210px;
+    position: relative;
+}
+
+.img-1{
+    margin-top: 120px;
+}
+
+.img-2{
+    position: absolute;
+    bottom: 125px; left: -140px;
+}
+
+
+.online-container{
+    display: flex;
+}
+
+.online-text{
+    text-align: left;
+    margin-left: 90px;
+    margin-right: 297px;
+    margin-top: 250px;
+    margin-bottom: 335px;
+}
+
+.online-text h2{
+    color: #0B0223;
+font-size: 45px;
+font-weight: 700;
+}
+.online-text span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.online-text p{
+    color: #534C64;
+font-size: 18px;
+font-weight: 400;
+max-width: 353px;
+}
+#online-img{
+    margin-left: 265px;
+    margin-right: 210px;
+    position: relative;
+}
+
+.img-3{
+    margin-top: 80px;
+}
+
+.img-4{
+    position: absolute;
+    bottom: 100px; right: -135px;
+}
