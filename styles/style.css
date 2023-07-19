@@ -2,6 +2,10 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden;
 }
 
 .nav-container {
@@ -113,20 +117,19 @@ body {
     margin-bottom: 24px;
 }
 
-.banner-text p{
+.banner-text p {
     color: #534C64;
-font-size: 20px;
-font-weight: 500;
-text-transform: lowercase;
-margin-bottom: 17px;
-}
-.text img{
-    width: 40px;
-height: 24px;
-flex-shrink: 0;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: lowercase;
+    margin-bottom: 17px;
 }
 
-.banner-img {}
+.text img {
+    width: 40px;
+    height: 24px;
+    flex-shrink: 0;
+}
 
 .banner-img img {
     height: 700px;
@@ -134,25 +137,134 @@ flex-shrink: 0;
     margin-left: 45px;
 }
 
-.text button{
+.text button {
     margin-bottom: 150px;
     border: none;
     color: white;
     font-size: 20px;
 }
-.btn-1{
+
+.btn-1 {
     border-radius: 48px;
-background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
-display: inline-flex;
-padding: 20px 45px;
-align-items: flex-start;
-margin-right: 24px;
-margin-top: 15px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    margin-right: 24px;
+    margin-top: 15px;
 }
-.btn-2{
+
+.btn-2 {
     border-radius: 48px;
-background: #4EC5F7;
-display: inline-flex;
-padding: 21px 45px;
-align-items: flex-start;
+    background: #4EC5F7;
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+}
+
+/* first banner end */
+
+.second-banner-container {
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    width: 1920px;
+    height: 600px;
+    flex-shrink: 0;
+    margin-top: -5px;
+    display: flex;
+}
+
+.second-img {
+    margin-left: 210px;
+    padding-bottom: 55px;
+    padding-top: 55px;
+}
+
+.second-text {
+    text-align: right;
+    justify-content: center;
+    margin-top: 95px;
+    margin-left: 70px;
+}
+
+.second-text h2 {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.second-text p {
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.second-text button {
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    color: white;
+    border: none;
+}
+
+.span-our {
+    color: #534C64;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.span-quote {
+    color: #534C64;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+/* second banner end */
+
+.vid-header {
+    justify-content: center;
+    text-align: center;
+}
+
+.vid-header h2 {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 120px;
+}
+
+.funny {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.vid-header p {
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: -15px;
+}
+
+.video {
+    width: 342px;
+    height: 400px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 800px;
+    gap: 24px;
+    margin-top: 48px;
+    margin-bottom: 204px;
+}
+
+.image-container p {
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
 }
