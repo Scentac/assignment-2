@@ -209,6 +209,9 @@ body {
     align-items: flex-start;
     color: white;
     border: none;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
 }
 
 .span-our {
@@ -373,8 +376,6 @@ body {
     margin-top: 0;
 }
 
-.career-header button {}
-
 .careers-container {
     display: flex;
     flex-wrap: wrap;
@@ -462,7 +463,7 @@ body {
 }
 
 .game-item {
-   display: flex;
+    display: flex;
     align-items: center;
     margin-right: 20px;
     border-radius: 50px;
@@ -471,8 +472,8 @@ body {
     height: 60px;
     flex-shrink: 0;
     color: #0B0223;
-font-size: 20px;
-font-weight: 600;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .game-item img {
@@ -487,9 +488,10 @@ font-weight: 600;
     margin: 0;
 }
 
-.span-arcade{
+.span-arcade {
     color: #FF42A5;
 }
+
 .games-img .game-item:nth-child(3) {
     border: 2px solid #FF42A5;
 }
@@ -505,7 +507,7 @@ font-weight: 600;
 }
 
 .game-item-2 {
-   display: flex;
+    display: flex;
     align-items: center;
     margin-right: 20px;
     border-radius: 50px;
@@ -514,8 +516,8 @@ font-weight: 600;
     height: 60px;
     flex-shrink: 0;
     color: #0B0223;
-font-size: 20px;
-font-weight: 600;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .game-item-2 img {
@@ -532,3 +534,90 @@ font-weight: 600;
 
 /* games section ended */
 
+
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 636px;
+    background-color: #0B0223;
+}
+
+.header-footer {
+    display: flex;
+    align-items: center;
+
+}
+
+.header-footer img {
+    padding-right: 30px;
+}
+
+.header-footer p {
+    margin: 0;
+    font-size: 45px;
+    font-weight: 700;
+    color: white;
+}
+
+.list-container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.list-container ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.list-container li {
+    padding-right:  50px;
+    padding-left: 50px;
+    padding-top: 30px;
+    margin-top: 50px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+.social-logo span {
+    display: inline-block; 
+    margin: 40px; 
+    margin-top: 60px;
+    
+}
+
+
+.terms-container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.terms-container ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.terms-container li {
+    padding-right:  80px;
+    padding-left: 80px;
+    margin-top: 30px;
+    color: rgba(255, 255, 255, 0.60);
+font-size: 16px;
+font-weight: 500;
+}
+
+.copyright{
+    color: rgba(255, 255, 255, 0.60);
+font-size: 16px;
+font-weight: 500;
+}
