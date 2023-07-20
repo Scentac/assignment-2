@@ -1,3 +1,258 @@
-@media screen and (max-width:400px) {
+/* Common styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+/* ... Your existing styles ... */
+
+/* Media query for devices with a width of 640px or smaller */
+@media (max-width: 640px) {
+    /* Adjust styles for the nav container */
+    .nav-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo-container {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .logo-container img {
+        margin: 20px 0;
+        margin-left: 0;
+    }
+
+    .logo-container p {
+        text-align: center;
+    }
+
+    .nav-item-container {
+        width: 100%;
+        justify-content: center;
+        margin: 20px 0;
+        flex-direction: column;
+    }
+
+    .nav-item-container a {
+        padding: 15px 20px;
+        font-size: 16px;
+    }
+
+    /* Adjust styles for the banner container */
+    .banner-container {
+        flex-direction: column-reverse;
+    }
+
+    .banner-text {
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+
+    .text {
+        margin: 20px;
+        text-align: center;
+    }
+
+    .banner-text h2 {
+        font-size: 32px;
+    }
+
+    .banner-text h1 {
+        font-size: 48px;
+    }
+
+    .banner-text p {
+        font-size: 16px;
+    }
+
+    .banner-img img {
+        height: auto;
+        width: 100%;
+        margin: 20px 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .text button {
+        margin-bottom: 40px;
+    }
+
+    /* Adjust styles for the second banner container */
+    .second-banner-container {
+        flex-direction: column;
+        width: 100%;
+        height: 1100px;
+    }
+
+    .second-img {
+        margin: 0px;
+        width: 100%;
+    }
+
+    .second-text {
+        margin: 20px;
+        text-align: center;
+    }
+
+    .second-text h2 {
+        font-size: 32px;
+    }
+
+    .second-text p {
+        font-size: 16px;
+    }
+
+    .second-text button {
+        margin-top: 20px;
+    }
+
+    /* Adjust styles for the video section */
+    .vid-header {
+        margin-top: 60px;
+
+    }
+
+    .vid-header h2 {
+        font-size: 32px;
+    }
+
+    .vid-header p {
+        font-size: 16px;
+    }
+
+    .video {
+        flex-direction: column;
+        gap: 20px;
+        margin-left: 140px;
+        height: 2100px
+    }
+
+    /* Adjust styles for the instant play section */
+    .instant-container {
+        flex-direction: column;
+    }
+
+    .instant-text {
+        margin: 30px;
+        text-align: center;
+    }
+
+    .instant-text h2 {
+        font-size: 32px;
+        margin-top: -50px;
+    }
+
+    .instant-text p {
+        font-size: 16px;
+        margin-left: 100px;
+    }
+    .img-2 {
+        margin-left: 100px;
+        margin-bottom: -260px;
+    }
+
+    #instant-img,
+    #online-img {
+        margin: 0;
     
+    }
+    .online-container {
+        flex-direction: column-reverse;
+        align-items: center; 
+        margin-top: -100px;
+    }
+    
+    .online-text {
+        margin-left: 80px; 
+        margin-right: 80px; 
+        padding: 0px; 
+        text-align: center; 
+    }
+    
+    .online-text h2 {
+        font-size: 45px;
+    }
+    #online-img {
+        margin-top: -200px;
+        margin-bottom: 300px;
+    }
+
+    .img-4 {
+        margin-right: 170px;
+        margin-bottom: -260px;
+    }
+
+    
+
+    /* Adjust styles for the careers section */
+    .careers-container {
+        flex-direction: column;
+        padding: 30px;
+        height: 2000px;
+        width: 600px;
+    }
+
+    .career-header h2 {
+        font-size: 32px;
+    }
+
+    .career-header p {
+        font-size: 16px;
+    }
+    .locations h5{
+        padding-right: 60px;
+    }
+    
+    .kids-img img {
+        margin-top: 0;
+    }
+    /* Adjust styles for the games section */
+    .games-container{
+        height: 700px;
+    }
+    
+
+    /* Adjust styles for the footer */
+    .footer-container {
+        height: 800px;
+    }
+
+    .header-footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .header-footer img {
+        padding: 0;
+        margin: 20px 0;
+    }
+
+    .logo-container p {
+        margin: 10px 0;
+    }
+
+
+
+    .list-container li {
+        padding: 10px 10px;
+    }
+
+    .social-logo span {
+        margin: 10px;
+        padding: 10px 10px;
+    }
+
+    .terms-container ul {
+        /* flex-direction: column; */
+    }
+
+    .terms-container li {
+        padding: 10px 10px;
+    }
 }
